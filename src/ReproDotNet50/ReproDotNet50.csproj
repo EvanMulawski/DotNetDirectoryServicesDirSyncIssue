@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="..\DirSync.shared.cs" Link="DirSync.shared.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.DirectoryServices" Version="5.0.0" />
+	</ItemGroup>
+
+</Project>
